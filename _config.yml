@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
+title:            qicqock's Tech Blog
 tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+description:      '<a href="http://hyde.getpoole.com" target="_blank">qicqock</a> 의  <a href="http://jekyllrb.com" target="_blank">기술 블로그</a>,'
 url:              https://qicqock.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
