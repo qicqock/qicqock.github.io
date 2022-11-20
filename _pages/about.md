@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+<!-- subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
 
 profile:
   align: right
@@ -24,4 +24,6 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/). -->
 
-Hi. I'm a senior student in computer science department at Hanyang University, Ansan, Korea(ERICA). My academic interests lies in computer vision, natural language processing, computer graphics, and AR/VR. 
+Hi! I'm a senior student in <a href='https://www.hanyang.ac.kr/web/eng'>College of Computing</a> at <a href='https://www.hanyang.ac.kr/web/eng'>Hanyang University</a>, Ansan, Korea(ERICA).
+
+My academic interests lies in computer vision, natural language processing, computer graphics, and AR/VR.
