@@ -1,15 +1,15 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Capstone Project
+description: Traffic Analysis System based on FCN-BLA model
 img: assets/img/3.jpg
 importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+1-year Capstone Project With <a href='https://www.gsu.edu/'>Georgia State University</a> mentoring from <a href='http://cai.csgsu.org/'>Prof.Zhipeng Cai</a>
+Proposes FCN-BLA model and Real-time traffic analysis system for Intelligence Transportation System(ITS).
+
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
