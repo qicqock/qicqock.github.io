@@ -28,4 +28,6 @@ Hi! I'm a senior student in <a href='https://www.hanyang.ac.kr/web/eng'>College 
 
 My academic interests lies in computer vision, natural language processing, computer graphics, and AR/VR.
 
-Recently, I'm absorbed into multimodal learning algorithms of vision-language models. I believe that it'll help us to deeply understand complex visual information such as human actions. In this respect, I'm planning to do further research in graduate school.
+Recently, I'm absorbed into multimodal learning algorithms of vision-language models. I believe they'll help us to deeply understand complex visual information such as human actions. 
+
+From now on, I'm planning to do further research in graduate school.
