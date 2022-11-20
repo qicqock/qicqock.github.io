@@ -8,10 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
+<!--   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
-    <p>Incheon</p>
+    <p>Incheon</p> -->
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -27,3 +27,5 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 Hi! I'm a senior student in <a href='https://www.hanyang.ac.kr/web/eng'>College of Computing</a> at <a href='https://www.hanyang.ac.kr/web/eng'>Hanyang University</a>, Ansan, Korea(ERICA).
 
 My academic interests lies in computer vision, natural language processing, computer graphics, and AR/VR.
+
+Recently, I'm absorbed into multimodal learning algorithms of vision-language models. I believe that it'll help us to deeply understand complex visual information such as human actions. In this respect, I'm planning to do further research in graduate school.
