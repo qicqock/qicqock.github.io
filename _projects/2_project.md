@@ -7,7 +7,7 @@ importance: 2
 category: work
 ---
 
-1-year Capstone Project With <a href='https://www.gsu.edu/'>Georgia State University</a> mentoring by <a href='http://cai.csgsu.org/'>Prof.Zhipeng Cai</a>
+<p class="font-weight-bold">1-year Capstone Project With <a href='https://www.gsu.edu/'>Georgia State University</a> mentoring by <a href='http://cai.csgsu.org/'>Prof.Zhipeng Cai</a></p>
 
 Proposed FCN-BLA and implemented Real-time traffic analysis system for Intelligence Transportation System(ITS).
 
@@ -31,13 +31,14 @@ Proposed FCN-BLA and implemented Real-time traffic analysis system for Intellige
     Model Structure of the model, FCN-BLA
 </div>
 
-proposed FCN-BLA that Improved the architecture of a <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM with BI-LSTM and Attention.
-Compared to <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM,
-    1. Changed to an Encoder-Decoder architecture
-    2. Bidirectionally containing spatio-temporal information from sequential images
-    3. Directly referring to encoded input features for dealing with an existing bottleneck problem
+proposed FCN-BLA that Improved the architecture of a <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM</a> with BI-LSTM and Attention.
+
+Compared to <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM</a>,  
+    1. Changed to an Encoder-Decoder architecture  
+    2. Bidirectionally containing spatio-temporal information from sequential images  
+    3. Directly referring to encoded input features for dealing with an existing bottleneck problem  
     
-As a result, obtained 4% performance improvement in count error as 4.205.
+In <a href="https://gram.web.uah.es/data/datasets/trancos/index.html">Trancos Dataset</a>, obtained 4% performance improvement of count error as 4.205.
     
     
     
