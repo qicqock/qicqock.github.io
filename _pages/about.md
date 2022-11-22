@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-<!-- subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
+subtitle: Email: qicqockqvgiq@gmail.com
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: /my_photo/main_image.png
   image_circular: false # crops the image to make it circular
 <!--   address: >
     <p>555 your office number</p>
@@ -27,7 +27,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi! I'm a senior student in <a href='https://www.hanyang.ac.kr/web/eng'>College of Computing</a> at <a href='https://www.hanyang.ac.kr/web/eng'>Hanyang University</a>, Ansan, Korea(ERICA).
 
-My academic interests lies in computer vision, natural language processing, computer graphics, and AR/VR.
+<p class="font-weight-bold">My academic interests lies in computer vision, natural language processing, computer graphics, and AR/VR.</p>
 
 Recently, I'm absorbed into multimodal learning algorithms of vision-language models. I believe they'll help us to deeply understand complex visual information such as human actions. 
 
