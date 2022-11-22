@@ -1,81 +1,74 @@
 ---
 layout: page
-title: project 3
-description: XR Interface for Microsoft HoloLens 2
+title: HoloLens 2 Project
+description: XR Interface for POLBOT on Microsoft HoloLens 2
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<p class="font-weight-bold">Project With <a href='https://www.etri.re.kr/intro.html'>ETRI, Korea</a> (collaborated with <a href='https://scholar.google.com/citations?user=ls--5v0AAAAJ&hl=en'>Prof.Junseong Bang</a>)</p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<h3>Introduction</h3>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+POLBOT is an AI-based conversational voice bot service for <a href="https://minwon.police.go.kr/">Korean National Police Agency</a> that recognizes the voice on the phone and seeks to understand the intention of the caller to provide effective automated receptions.
+ 
+By analyzing the voice from multiple speakers in real time, POLBOT can classify speakers and understand their intentions, which allows to provide automated voice responses to callers.
+
+<p class="font-weight-bold">On the necessity of digital conversion of call centers, we developed an XR interface for POLBOT on Microsoft HoloLens 2.</p>
+
+
+<h3>FCN-BLA</h3>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/capstone2022/capstone2022_model.png" title="FCN-BLA" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Model Structure of the model, FCN-BLA
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+We proposed FCN-BLA that Improved the architecture of a <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM</a> with BI-LSTM and Attention.
 
+Compared to <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM</a>,  
+    1. Changed to an Encoder-Decoder architecture  
+    2. Bidirectionally containing spatio-temporal information from sequential images  
+    3. Directly referring to encoded input features for dealing with an existing bottleneck problem  
+    
+In <a href="https://gram.web.uah.es/data/datasets/trancos/index.html">Trancos Dataset</a>, we obtained 4% performance improvement of count error as 4.205.
 
+  
+<h3>Traffic Analysis System</h3>
+  
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/capstone2022/capstone2022_input.png" title="model input" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/capstone2022/capstone2022_system.png" title="system" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    batch input 
 </div>
 
+Using FCN-BLA, we designed Traffic Analysis System for real-time vehicle counting of multiple CCTVs.  
+For real-time inference, we used HLS(HTTP Live Streaming) and Socket Programming.  
+To deal with sudden overloads of model requests, we made an waiting queue that stacks batches from multiple CCTVs.  
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
+<h3>Exhibition</h3>
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/capstone2022/capstone2022_service.png" title="service" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/capstone2022/capstone2022_android.png" title="android" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
-{% endraw %}
+<div class="caption">
+    Web Application and Android app(Namhaeseon Chojeon 2nd Bridge)
+</div>
+
+the project was exhibited at <a href="http://www.aiexpo.co.kr/">AI Expo Korea, 2022</a> demonstrating 
