@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Email: qicqockqvgiq@gmail.com
+subtitle: qicqockqvgiq@gmail.com
 
 profile:
   align: right
