@@ -18,14 +18,11 @@ By analyzing multiple speakers' voices in real-time, POLBOT can classify speaker
 <p class="font-weight-bold">On the necessity of digital conversion of call centers, we developed an XR interface for POLBOT on Microsoft HoloLens 2.</p>
 
 
-<h3>System Overview</h3>
+<h3>System</h3>
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/XR/XR_system.png" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    System Overview
 </div>
 
 
@@ -39,7 +36,19 @@ By analyzing multiple speakers' voices in real-time, POLBOT can classify speaker
     XR interface
 </div>
 
-We developed XR interface with <a href="https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05">MRTK2</a> and <a href="https://unity.com/">Unity</a>.
+We developed XR interface with <a href="https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05">MRTK2</a> and <a href="https://unity.com/">Unity</a> for Microsoft HoloLens 2.
+
+
+
+The interface are designed to manage multiple simultaneous calls of police call center.
+Supported Features
+ 1. head tracking
+ 2. web-based user data processing and visualization
+ 3. hand gestures
+ 4. voice commands
+ 5. virtual touchpad
+
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
@@ -52,14 +61,12 @@ We developed XR interface with <a href="https://learn.microsoft.com/en-us/window
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/XR/XR_test1.gif" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/XR/XR_test2.gif" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Hand Gesture
 </div>
-
-Applied hand gestures and voice recognition for XR interface interaction.
 
 
 
