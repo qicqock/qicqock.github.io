@@ -76,4 +76,4 @@ We applied our Traffic Analysis System to a National Highway API provided by <a 
 
 
 
-For more information, You can find our <a href="https://github.com/CapstonAIVC/IVCS">code</a> and <a href="">final report(korean)</a>
+If you find further information, There is our <a href="https://github.com/CapstonAIVC/IVCS">code</a> and <a href="assets/pdf/capstone2022_final_report.pdf">final report(korean)</a>
