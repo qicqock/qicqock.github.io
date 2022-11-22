@@ -31,9 +31,9 @@ Compared to <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM</a>,
     
 In <a href="https://gram.web.uah.es/data/datasets/trancos/index.html">Trancos Dataset</a>, we obtained 4% performance improvement of count error as 4.205.
 
-
+  
 <h2>Traffic Analysis System</h2>
-
+  
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/capstone2022/capstone2022_input.png" title="model input" class="img-fluid rounded z-depth-1" %}
@@ -46,8 +46,8 @@ In <a href="https://gram.web.uah.es/data/datasets/trancos/index.html">Trancos Da
     batch input 
 </div>
 
-Using FCN-BLA, we designed Traffic Analysis System for real-time vehicle counting of multiple CCTVs.
-For real-time inference, we used HLS(HTTP Live Streaming) and Socket Programming.
+Using FCN-BLA, we designed Traffic Analysis System for real-time vehicle counting of multiple CCTVs.  
+For real-time inference, we used HLS(HTTP Live Streaming) and Socket Programming.  
 To deal with sudden overloads of model requests, we made an waiting queue that stacks batches from multiple CCTVs.  
 
 
@@ -55,16 +55,12 @@ To deal with sudden overloads of model requests, we made an waiting queue that s
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/capstone2022/capstone2022_service.png" title="service" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">
-    real-time vehicle counting service
-    </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/capstone2022/capstone2022_android.png" title="android" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">
-    Android application(Namhaeseon Chojeon 2nd Bridge)
-    </div>
+</div>
+<div class="caption">
+    Web Application and Android app(Namhaeseon Chojeon 2nd Bridge)
 </div>
 
-We applied our Traffic Analysis System to a National Highway API provided by <a href="https://www.its.go.kr/map/cctv"> National Transport Information Center</a>, Korea.
-We implemented a Web-based service and an android app.
+We applied our Traffic Analysis System to a National Highway API provided by <a href="https://www.its.go.kr/map/cctv"> National Transport Information Center</a>, Korea and implemented a Web-based service and an android app.
