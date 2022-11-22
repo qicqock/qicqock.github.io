@@ -13,7 +13,7 @@ category: work
 
 POLBOT is an AI-based conversational voice bot service for <a href="https://minwon.police.go.kr/">Korean National Police Agency</a> that recognizes the voice on the phone and seeks to understand the intention of the caller to provide effective automated receptions.
  
-By analyzing the voice from multiple speakers in real time, POLBOT can classify speakers and understand their intentions, which allows to provide automated voice responses to callers.
+By analyzing multiple speakers' voices in real-time, POLBOT can classify speakers and understand their intentions, which allows to provide automated voice responses to callers.
 
 <p class="font-weight-bold">On the necessity of digital conversion of call centers, we developed an XR interface for POLBOT on Microsoft HoloLens 2.</p>
 
@@ -58,17 +58,23 @@ For real-time inference, we used HLS(HTTP Live Streaming) and Socket Programming
 To deal with sudden overloads of model requests, we made an waiting queue that stacks batches from multiple CCTVs.  
 
 
-<h3>Exhibition</h3>
+<h3><a href="http://www.aiexpo.co.kr/">AI Expo Korea, 2022</a></h3>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/XR/XR.gif" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/capstone2022/capstone2022_service.png" title="service" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/XR/XR_1.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/capstone2022/capstone2022_android.png" title="android" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/XR/XR_2.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Web Application and Android app(Namhaeseon Chojeon 2nd Bridge)
-</div>
 
-the project was exhibited at <a href="http://www.aiexpo.co.kr/">AI Expo Korea, 2022</a> demonstrating 
+the project was exhibited at <a href="http://www.aiexpo.co.kr/">AI Expo Korea, 2022</a>.
+
+It was a valuable opportunity to demonstrate my work in front of many people.
+
