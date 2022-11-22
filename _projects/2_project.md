@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Capstone Project
-description: Traffic Analysis System based on FCN-BLA model
+title: Traffic Analysis System based on FCN-BLA model
+description: Capstone Project from July,2021 to June, 2022
 img: assets/img/capstone2022/capstone2022_model.png
 importance: 2
 category: work
@@ -11,7 +11,7 @@ category: work
 <p class="font-weight-bold">We Proposed FCN-BLA and implemented Real-time traffic analysis system for Intelligence Transportation System(ITS).</p>
 
 
-<h2>FCN-BLA</h2>
+<h3>FCN-BLA</h3>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -32,7 +32,7 @@ Compared to <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM</a>,
 In <a href="https://gram.web.uah.es/data/datasets/trancos/index.html">Trancos Dataset</a>, we obtained 4% performance improvement of count error as 4.205.
 
   
-<h2>Traffic Analysis System</h2>
+<h3>Traffic Analysis System</h3>
   
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -51,6 +51,7 @@ For real-time inference, we used HLS(HTTP Live Streaming) and Socket Programming
 To deal with sudden overloads of model requests, we made an waiting queue that stacks batches from multiple CCTVs.  
 
 
+<h3>Application</h3>
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/capstone2022/capstone2022_service.png" title="service" class="img-fluid rounded z-depth-1" %}
@@ -64,3 +65,7 @@ To deal with sudden overloads of model requests, we made an waiting queue that s
 </div>
 
 We applied our Traffic Analysis System to a National Highway API provided by <a href="https://www.its.go.kr/map/cctv"> National Transport Information Center</a>, Korea and implemented a Web-based service and an android app.
+
+
+
+You can find our <a href="https://github.com/CapstonAIVC/IVCS">code</a> and <a href="">final report</a>
