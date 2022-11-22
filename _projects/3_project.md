@@ -1,8 +1,8 @@
 ---
 layout: page
-title: HoloLens 2 Project
+title: XR interface
 description: XR Interface for POLBOT on Microsoft HoloLens 2
-img: assets/img/7.jpg
+img: assets/img/XR_button.png
 importance: 3
 category: work
 ---
@@ -40,7 +40,7 @@ We developed XR interface with <a href="https://learn.microsoft.com/en-us/window
 
 
 
-The interface are designed to manage multiple simultaneous calls of police call center.
+The interface are designed to manage multiple simultaneous calls of police call center.  
 Supported Features
  1. head tracking
  2. web-based user data processing and visualization
