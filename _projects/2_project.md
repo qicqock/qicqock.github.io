@@ -1,14 +1,22 @@
 ---
 layout: page
-title: Traffic Analysis System based on FCN-BLA model
-description: Capstone Project from July,2021 to June, 2022
+title: Capstone Project
+description: Traffic Analysis System based on FCN-BLA
 img: assets/img/capstone2022/capstone2022_model.png
 importance: 2
 category: work
 ---
 
-<p class="font-weight-bold">1-year Capstone Project With <a href='https://www.gsu.edu/'>Georgia State University</a> mentoring by <a href='http://cai.csgsu.org/'>Prof.Zhipeng Cai</a></p>
-<p class="font-weight-bold">We Proposed FCN-BLA and implemented Real-time traffic analysis system for Intelligence Transportation System(ITS).</p>
+<p class="font-weight-bold">Capstone Project With <a href='https://www.gsu.edu/'>Georgia State University</a> mentoring by <a href='http://cai.csgsu.org/'>Prof.Zhipeng Cai</a></p>
+
+
+<h3>Introduction</h3>
+
+In this project, in order to efficiently collect and analyze traffic information, We propose an FCN-BLA By analyzing and improving the <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM</a>, which is a state-of-the-art model among vehicle prediction models.
+
+Also, Based on the FCN-BLA, we created Traffic Analysis System where a number of real-time CCTV images are processed in parallel with new analytic methods. 
+
+<p class="font-weight-bold">In summary, We proposed FCN-BLA and implemented real-time Traffic Analysis System.</p>
 
 
 <h3>FCN-BLA</h3>
@@ -47,7 +55,7 @@ In <a href="https://gram.web.uah.es/data/datasets/trancos/index.html">Trancos Da
 </div>
 
 Using FCN-BLA, we designed Traffic Analysis System for real-time vehicle counting of multiple CCTVs.  
-For real-time inference, we used HLS(HTTP Live Streaming) and Socket Programming.  
+For real-time inference, we used HLS(HTTP Live Streaming) and Socket Programming.
 To deal with sudden overloads of model requests, we made an waiting queue that stacks batches from multiple CCTVs.  
 
 
@@ -68,4 +76,4 @@ We applied our Traffic Analysis System to a National Highway API provided by <a 
 
 
 
-You can find our <a href="https://github.com/CapstonAIVC/IVCS">code</a> and <a href="">final report</a>
+For more information, You can find our <a href="https://github.com/CapstonAIVC/IVCS">code</a> and <a href="">final report(korean)</a>
