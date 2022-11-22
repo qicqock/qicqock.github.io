@@ -1,6 +1,6 @@
 ---
 layout: page
-title: XR interface
+title: XR Interface
 description: XR Interface for POLBOT on Microsoft HoloLens 2
 img: assets/img/XR_button.png
 importance: 3
