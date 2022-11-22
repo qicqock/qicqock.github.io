@@ -18,8 +18,7 @@ By analyzing multiple speakers' voices in real-time, POLBOT can classify speaker
 <p class="font-weight-bold">On the necessity of digital conversion of call centers, we developed an XR interface for POLBOT on Microsoft HoloLens 2.</p>
 
 
-<h3>XR interface</h3>
-
+<h3>System Overview</h3>
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/XR/XR_system.png" class="img-fluid rounded z-depth-1" %}
@@ -29,6 +28,8 @@ By analyzing multiple speakers' voices in real-time, POLBOT can classify speaker
     System Overview
 </div>
 
+
+<h3>XR interface</h3>
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/XR/XR_button.png" class="img-fluid rounded z-depth-1" %}
@@ -37,6 +38,8 @@ By analyzing multiple speakers' voices in real-time, POLBOT can classify speaker
 <div class="caption">
     XR interface
 </div>
+
+We developed XR interface with <a href="https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05">MRTK2</a> and <a href="https://unity.com/">Unity</a>.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
@@ -56,7 +59,6 @@ By analyzing multiple speakers' voices in real-time, POLBOT can classify speaker
     Hand Gesture
 </div>
 
-We developed XR interface with <a href="">MRTK2-unity</a>.  
 Applied hand gestures and voice recognition for XR interface interaction.
 
 
