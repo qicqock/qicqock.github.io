@@ -12,7 +12,7 @@ category: work
 
 <h3>Introduction</h3>
 
-In this project, in order to efficiently collect and analyze traffic information, We propose an FCN-BLA By analyzing and improving the <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM</a>, which is a state-of-the-art model among vehicle prediction models.
+In this project, in order to efficiently collect and analyze traffic information, We propose an FCN-BLA by analyzing and improving the <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM</a>, which is a state-of-the-art model among vehicle prediction models.
 
 Also, Based on the FCN-BLA, we created Traffic Analysis System where a number of real-time CCTV images are processed in parallel with new analytic methods. 
 
@@ -55,7 +55,7 @@ In <a href="https://gram.web.uah.es/data/datasets/trancos/index.html">Trancos Da
 </div>
 
 Using FCN-BLA, we designed Traffic Analysis System for real-time vehicle counting of multiple CCTVs.  
-For real-time inference, we used HLS(HTTP Live Streaming) and Socket Programming.
+For real-time inference, we used HLS(HTTP Live Streaming) and Socket Programming.  
 To deal with sudden overloads of model requests, we made an waiting queue that stacks batches from multiple CCTVs.  
 
 
