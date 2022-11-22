@@ -7,7 +7,7 @@ importance: 3
 category: work
 ---
 
-<p class="font-weight-bold">Project With <a href='https://www.etri.re.kr/intro.html'>ETRI, Korea</a> (collaborated with <a href='https://scholar.google.com/citations?user=ls--5v0AAAAJ&hl=en'>Prof.Junseong Bang</a>)</p>
+<p class="font-weight-bold">Project with <a href='https://www.etri.re.kr/intro.html'>ETRI, Korea</a> (collaborated with <a href='https://scholar.google.com/citations?user=ls--5v0AAAAJ&hl=en'>Prof.Junseong Bang</a>)</p>
 
 <h3>Introduction</h3>
 
