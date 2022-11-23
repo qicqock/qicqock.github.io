@@ -10,3 +10,43 @@
     - title: <a href="https://qicqock.github.io/projects/3_project/">POLBOT XR Interface</a>
       year: 2021-2022
       description: developed XR Interface for POLBOT on Microsoft HoloLens 2
+ 
+- title: Education
+  type: time_table
+  contents:
+    - institution: Hanyang University, Ansan (ERICA)
+      Major: Software(Computer Science)
+      year: 2017 ~ 2023
+    - institution: Dongbuk High School
+      year: 2014 ~ 2016
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: Electronics and Telecommunications Research Institute(ETRI), Korea
+      period: summer 2022
+      description:
+        - Description 1.
+        - Description 2.
+    - title: Software Engineer
+      institution: Speechtools
+      period: July 2020 ~ Nov 2021
+      description:
+        - Description 1.
+        - Description 2.
+    - title: Mandatory military service
+      institution: Republic of Korea Air Force
+      period: April 2018 ~ March 2020
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items: 
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
+      items: 
+        - Max Planck Medal      
+      
