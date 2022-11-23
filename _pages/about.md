@@ -14,7 +14,7 @@ profile:
     <p>Incheon</p> -->
 
 news: true  # includes a list of news items
-projects: true # includes a list of projects
+my_information: true # includes my information
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -31,4 +31,4 @@ Hi! I'm a senior student in <a href='https://www.hanyang.ac.kr/web/eng'>College 
 
 Recently, I'm absorbed into multimodal learning algorithms of vision-language models. I believe they'll help us to deeply understand complex visual information such as human actions. 
 
-From now on, I'm planning to do further research in graduate school.
+From now on, I'm planning to do further research in graduate school!
