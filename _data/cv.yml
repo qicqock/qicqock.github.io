@@ -14,32 +14,29 @@
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor of Science
     - institution: Hanyang University, Ansan (ERICA)
       year: 2017 ~ 2023
       description:
-        - Major: Software(Computer Science)
-        - GPA 3.65/4.0 (Major: 3.86/4.0)
+        - Bachelor of Science in Software(Computer Science)
+        - GPA 3.65/4.0 (Major 3.86/4.0)
     - institution: Dongbuk High School
       year: 2014 ~ 2016
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Intern
+    - title: Research Intern (summer 2022)
       institution: Electronics and Telecommunications Research Institute(ETRI), Korea
       description:
-        - summer 2022
+        - aaaaaaaaaaaaaaaa
         - Description 2.
-    - title: Software Engineer
+    - title: Software Engineer (July 2020 ~ Nov 2021)
       institution: Speechtools
       description:
-        - July 2020 ~ Nov 2021
+        - aaaaaaaaaaaaaa
         - Description 2.
-    - title: Mandatory military service
+    - title: Mandatory military service (April 2018 ~ March 2020)
       institution: Republic of Korea Air Force
-      description:
-        - April 2018 ~ March 2020
 
 - title: Honors and Awards
   type: time_table
