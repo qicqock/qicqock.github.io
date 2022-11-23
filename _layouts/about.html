@@ -45,6 +45,11 @@ layout: default
           {%- include news.html %}
           {%- endif %}
 
+          {% if page.my_information -%}
+          <!-- my_information -->
+          {%- include my_information.html %}
+          {%- endif %}
+              
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
