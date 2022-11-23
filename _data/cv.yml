@@ -1,12 +1,25 @@
-- title: General Information
-  type: map
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Chan Woong Yoon
+#     - name: Date of Birth
+#       value: 9th Feb 1999
+#     - name: Languages
+#       value: Korean, English
+
+- title: Projects
+  type: time_table
   contents:
-    - name: Full Name
-      value: Chan Woong Yoon
-    - name: Date of Birth
-      value: 9th Feb 1999
-    - name: Languages
-      value: Korean, English
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2022-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      - title: <a href="https://qicqock.github.io/projects/2_project/">Capstone Project</a>
+      year: 2022
+      description: Capstone Project With Georgia State University mentoring by Prof.Zhipeng Cai
+      - title: <a href="https://qicqock.github.io/projects/3_project/">POLBOT XR Interface</a>
+      year: 2021-2022
+      description: developed XR Interface for POLBOT on Microsoft HoloLens 2
 
 - title: Education
   type: time_table
@@ -36,19 +49,6 @@
       institution: Republic of Korea Air Force
       period: April 2018 ~ March 2020
 
-- title: Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2022-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-      - title: <a href="https://qicqock.github.io/projects/2_project/">Capstone Project</a>
-      year: 2022
-      description: Capstone Project With Georgia State University mentoring by Prof.Zhipeng Cai
-      - title: <a href="https://qicqock.github.io/projects/3_project/">POLBOT XR Interface</a>
-      year: 2021-2022
-      description: developed XR Interface for POLBOT on Microsoft HoloLens 2
-
 - title: Honors and Awards
   type: time_table
   contents:
@@ -60,19 +60,19 @@
       items: 
         - Max Planck Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
