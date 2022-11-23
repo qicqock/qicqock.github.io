@@ -1,13 +1,3 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Chan Woong Yoon
-#     - name: Date of Birth
-#       value: 9th Feb 1999
-#     - name: Languages
-#       value: Korean, English
-
 - title: Projects
   type: time_table
   contents:
@@ -59,20 +49,3 @@
     - year: 2029
       items: 
         - Max Planck Medal
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
