@@ -6,10 +6,10 @@
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
     - title: <a href="https://qicqock.github.io/projects/2_project/">Capstone Project</a>
       year: 2022
-      description: Traffic Analysis System based on FCN-BLA
+      description: Traffic Analysis System based on FCN-BLA (Check the project page)
     - title: <a href="https://qicqock.github.io/projects/3_project/">POLBOT XR Interface</a>
       year: 2021 ~ 2022
-      description: XR Interface for POLBOT on Microsoft HoloLens 2
+      description: XR Interface for POLBOT on Microsoft HoloLens 2 (Check the project page)
  
 - title: Education
   type: time_table
@@ -28,16 +28,15 @@
     - title: Research Intern (summer 2022)
       institution: Electronics and Telecommunications Research Institute(ETRI), Korea
       description:
-        - aaaaaaaaaaaaaaaa
-        - Description 2.
+        - Worked on few-shot Dialogue State Tracking of public safety domain 
+        - Applied prompt-based learning to Dialogue State Tracking
     - title: Software Engineer (July 2020 ~ Nov 2021)
       institution: Speechtools
       description:
-        - title: XR Engineer
-          contents:
-            - Created XR interface for project Polbot, an intelligent public safety AI-based conversational chatbot service
-            - 
-    - title: Republic of Korea Air Force (April 2018 ~ March 2020)
+        - Created XR interface for project Polbot, an intelligent public safety AI-based conversational chatbot service
+        - Analyzed noise patterns of text data for speech-recognition model
+    - title: Military Service
+      institution: Republic of Korea Air Force (April 2018 ~ March 2020)
 
 - title: Honors and Awards
   type: time_table
@@ -45,6 +44,6 @@
     - year: July 2022
       items: 
         - KIISE Korea Computer Congress 2022 Competition, Encouragement Award
-    - year: Fall 2020 ~ Spring 2022
+    - year: Fall 2020 ~ now
       items: 
         - Scholarship Award for Academic Excellence (Top 3 Students)
