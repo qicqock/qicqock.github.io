@@ -2,6 +2,6 @@ github_users:
   - qicqock
 
 github_repos:
-  - https://github.com/qicqock/DS2
-  - https://github.com/qicqock/Yale-FaceRecognition
-  - https://github.com/CapstonAIVC/IVCS
+  - qicqock/DS2
+  - qicqock/Yale-FaceRecognition
+  - CapstonAIVC/IVCS
