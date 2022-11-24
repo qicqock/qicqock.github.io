@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - qicqock
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - https://github.com/qicqock/DS2
+  - https://github.com/qicqock/Yale-FaceRecognition
+  - https://github.com/CapstonAIVC/IVCS
