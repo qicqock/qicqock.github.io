@@ -2,14 +2,14 @@
   type: time_table
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2022-now
+      year: 2022 ~ now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
     - title: <a href="https://qicqock.github.io/projects/2_project/">Capstone Project</a>
       year: 2022
       description: Traffic Analysis System based on FCN-BLA
     - title: <a href="https://qicqock.github.io/projects/3_project/">POLBOT XR Interface</a>
-      year: 2021-2022
-      description: developed XR Interface for POLBOT on Microsoft HoloLens 2
+      year: 2021 ~ 2022
+      description: XR Interface for POLBOT on Microsoft HoloLens 2
  
 - title: Education
   type: time_table
@@ -33,16 +33,18 @@
     - title: Software Engineer (July 2020 ~ Nov 2021)
       institution: Speechtools
       description:
-        - aaaaaaaaaaaaaa
-        - Description 2.
-    - title: Mandatory military service (April 2018 ~ March 2020)
-      institution: Republic of Korea Air Force
+        - title: XR Engineer
+          contents:
+            - Created XR interface for project Polbot, an intelligent public safety AI-based conversational chatbot service
+            - 
+    - title: Republic of Korea Air Force (April 2018 ~ March 2020)
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: July 2022
       items: 
-        - 
-        -   
-      
+        - KIISE Korea Computer Congress 2022 Competition, Encouragement Award
+    - year: Fall 2020 ~ Spring 2022
+      items: 
+        - Scholarship Award for Academic Excellence (Top 3 Students)
