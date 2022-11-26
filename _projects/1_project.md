@@ -15,7 +15,7 @@ POLBOT is an AI-based conversational voice bot service for <a href="https://minw
 
 In POLBOT, Dialogue State Tracking(DST) plays a fundamental role in understanding user's requirements exposed during multi-turn conversations.
 
-However, Due to limitations of acquiring dataset from the police department, I researched few-shot methods of DST and pre-trained language model(PLM).
+However, Due to difficulties of acquiring well-anotated datasets from the police department, few-shot methods of DST and pre-trained language model(PLM) are main research topics.
 
 
 <p class="font-weight-bold"> We proposed FCN-BLA and implemented real-time Traffic Analysis System.</p>
