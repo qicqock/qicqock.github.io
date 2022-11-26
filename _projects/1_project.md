@@ -1,33 +1,67 @@
 ---
 layout: page
-title: Prompt Learning in a DST task
+title: Prompt Learning of Dialogue State Tracking
 description: 
-img: assets/img/capstone2022/capstone2022_model.png
+img: assets/img/Pftune_DS2/pftune.png
 importance: 1
 category: work
 ---
 
-<p class="font-weight-bold">Capstone Project With <a href='https://www.gsu.edu/'>Georgia State University</a> mentoring by <a href='http://cai.csgsu.org/'>Prof.Zhipeng Cai</a></p>
-
+<p class="font-weight-bold">Research Project of POLBOT at <a href="https://www.etri.re.kr/intro.html">ETRI, Korea </a> mentored by <a href='https://scholar.google.com/citations?user=ls--5v0AAAAJ&hl=en'>Prof.Junseong Bang</a></p>
 
 <h3>Introduction</h3>
 
-In this project, in order to efficiently collect and analyze traffic information, We propose an FCN-BLA by analyzing and improving the <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM</a>, which is a state-of-the-art model among vehicle prediction models.
+POLBOT is an AI-based conversational voice bot service for <a href="https://minwon.police.go.kr/">Korean National Police Agency</a> that provides automated receptions  of public safety domains.
 
-Also, Based on the FCN-BLA, we created Traffic Analysis System where a number of real-time CCTV images are processed in parallel with new analytic methods. 
+In POLBOT, Dialogue State Tracking(DST) plays a fundamental role in understanding user's requirements exposed during multi-turn conversations.
 
-<p class="font-weight-bold">In summary, We proposed FCN-BLA and implemented real-time Traffic Analysis System.</p>
+However, Due to limitations of acquiring dataset from the police department, I researched few-shot methods of DST and pre-trained language model(PLM).
 
 
-<h3>FCN-BLA</h3>
+<p class="font-weight-bold"> We proposed FCN-BLA and implemented real-time Traffic Analysis System.</p>
+
+<h3>Training</h3>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/capstone2022/capstone2022_model.png" title="FCN-BLA" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Pftune_DS2/training_ds2.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Model Structure of the model, FCN-BLA
+    Training process of DS2
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Pftune_DS2/training_pf_ds2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Pftune_DS2/prompt_tune.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Pftune_DS2/pftune.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Pftune_DS2/result.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    
 </div>
 
 We proposed FCN-BLA that Improved the architecture of a <a href="https://arxiv.org/abs/1707.09476">FCN-rLSTM</a> with BI-LSTM and Attention.
