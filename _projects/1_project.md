@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Prompt-based Learning of Dialogue State Tracking
-description: 
+description:
 img: assets/img/Pftune_DS2/pftune.png
 importance: 1
 category: work
@@ -29,7 +29,7 @@ However, I found some inefficiencies of the training process of DS2
 <p class="font-weight-bold">To address the issues while maintaining few-shot performance of DS2, I applied prompt-based learning. </p>
 
 
-<h3>Prompt-Based methods of DST</h3>
+<h3>Prompt-based Methods of DS2</h3>
 I chose two different prompt learning strategies, Prompt Tuning and Prefix Tuning.
 
 <h5><a href="https://arxiv.org/abs/2104.08691">Prompt Tuning</a></h5>
@@ -65,18 +65,3 @@ My proposed application also showed almost similar accuracy of fine-tuning in va
 <div class="caption">
     Result
 </div>
-    
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Pftune_DS2/training_ds2.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Training process of DS2
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Pftune_DS2/training_pf_ds2.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div> -->
