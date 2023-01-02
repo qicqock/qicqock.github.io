@@ -30,31 +30,32 @@ However, I found some inefficiencies of the training process of DS2
 
 
 <h3>Prompt-Based methods of DST</h3>
+I chose two different prompt learning strategies, Prompt Tuning and Prefix Tuning.
 
-Prompt Tuning
+<h5><a href="https://arxiv.org/abs/2104.08691">Prompt Tuning</a></h5>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Pftune_DS2/prompt_tune.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    
+    Prompt Tuning
 </div>
 
-Prefix Tuning
+<h5><a href="https://arxiv.org/abs/2101.00190">Prefix Tuning</a></h5>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Pftune_DS2/pftune.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    
+    Prefix Tuning
 </div>
 
 <h3>Result</h3>
-I obtained a 98% comparable score of fine-tuning with updating only 2% parameters of the BART-large model.
+I obtained a 98% comparable score of fine-tuning with updating only 2% parameters of the BART-large model using prefix tuning.
 
-My proposed application also showed almost similar accuracy to fine-tuning in various few-shot settings conducted on MultiWOZ 2.1 dataset.
+My proposed application also showed almost similar accuracy of fine-tuning in various few-shot settings conducted on MultiWOZ 2.1 dataset.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -62,10 +63,10 @@ My proposed application also showed almost similar accuracy to fine-tuning in va
     </div>
 </div>
 <div class="caption">
-    
+    Result
 </div>
     
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Pftune_DS2/training_ds2.png" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -78,4 +79,4 @@ My proposed application also showed almost similar accuracy to fine-tuning in va
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Pftune_DS2/training_pf_ds2.png" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+</div> -->
