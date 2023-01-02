@@ -1,9 +1,9 @@
 - title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2022 ~ now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://qicqock.github.io/projects/1_project/">Prompt-based learning of DST</a>
+      year: 2022
+      description: Research Project of POLBOT at ETRI
     - title: <a href="https://qicqock.github.io/projects/2_project/">Capstone Project</a>
       year: 2022
       description: Traffic Analysis System based on FCN-BLA (check the project page)
