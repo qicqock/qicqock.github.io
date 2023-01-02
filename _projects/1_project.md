@@ -18,7 +18,7 @@ For effective reception, Dialogue State Tracking (DST) is one of the key modules
 
 However, Due to difficulties of acquiring well-anotated datasets from the police department, few-shot DST was a main topic of our research project.
 
-<h3>Reserach Approach </h3>
+<h3>Research Approach </h3>
 
 Among few-shot methods, I was particularly interested in <a href="https://arxiv.org/abs/2203.01552">DS2</a> that redefines DST into sentence summarization. 
 
