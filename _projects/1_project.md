@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Prompt Learning of Dialogue State Tracking
+title: Prompt-based Learning of Dialogue State Tracking
 description: 
 img: assets/img/Pftune_DS2/pftune.png
 importance: 1
@@ -11,19 +11,26 @@ category: work
 
 <h3>Introduction</h3>
 
-POLBOT is an AI-based conversational voice bot that provides an automated reception service for call centers of <a href="https://minwon.police.go.kr/">Korean National Police Agency</a>.
+POLBOT is an AI-based conversational voice bot that provides an automated reception service for call centers of <a href="https://minwon.police.go.kr/">Korean National Police Agency</a>. 
 
 For effective reception, Dialogue State Tracking (DST) is one of the key modules of POLBOT that is responsible for extracting users’ intentions and requirements from dialogues.
 
-As the recent trends of DST largely rely on Pre-trained Lanuage Models(PLMs), POLBOT also uses PLMs to track dialouge states.
+However, Due to difficulties of acquiring well-anotated datasets from the police department, few-shot DST was a main topic of our research project.
 
-However, Due to difficulties of acquiring well-anotated datasets from the police department, few-shot DST is a main issue in our research projects.
+<h3>Reserach Approach </h3>
+
+Among few-shot methods, I was particularly interested in <a href="https://arxiv.org/abs/2203.01552">DS2</a> that redefines DST into sentence summarization. 
+
+However, I found some inefficiencies of the training process of DS2 
+    1. Because of the unique idea of redefinition, the approach requires an extra fine-tuning process, which needs additional computational resources for training.
+    2. it is very challenging to optimize all of the parameters of a large model with very little data.
+
+<p class="font-weight-bold">To address the issues while maintaining few-shot performance of DS2, I applied prompt-based learning. </p>
 
 
-<p class="font-weight-bold"> We proposed FCN-BLA and implemented real-time Traffic Analysis System.</p>
+<h3>Training process</h3>
 
-<h3>Training</h3>
-
+The training process of DS2 is 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Pftune_DS2/training_ds2.png" class="img-fluid rounded z-depth-1" %}
@@ -45,7 +52,7 @@ However, Due to difficulties of acquiring well-anotated datasets from the police
     </div>
 </div>
 <div class="caption">
-    
+    Training process of prompt learning DS2
 </div>
 
 <div class="row">
