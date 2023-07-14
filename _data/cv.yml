@@ -1,9 +1,9 @@
 - title: Publications
   type: time_table
   contents:
-    - title: <a">Entity Assisted Retriever Tuning for In-Context Dialogue State Tracking</a>
+    - title: <a">Cost-Effective Optimization for In-Context Dialogue State Tracking</a>
       year: preparing
-      description: first equal contributor
+      description: first Author
     - title: <a>Traffic Analysis System based on FCN-rLSTM model</a>
       year: KIISE 2022
       description: Taeyoon Kwon, <b class="font-weight-medium">Chanwoong Yoon</b>, Hongil Son, Gitae Kim
